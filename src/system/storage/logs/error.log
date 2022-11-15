@@ -1,0 +1,14 @@
+2022-11-15 19:11:04 - PHP Warning:  mkdir(): File exists in /var/www/catalog/model/tool/image.php on line 34
+2022-11-15 19:11:04 - PHP Warning:  mkdir(): File exists in /var/www/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php on line 50
+2022-11-15 19:11:04 - PHP Warning:  mkdir(): File exists in /var/www/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php on line 50
+2022-11-15 19:11:04 - PHP Warning:  mkdir(): File exists in /var/www/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php on line 50
+2022-11-15 19:11:04 - PHP Warning:  mkdir(): File exists in /var/www/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php on line 50
+2022-11-15 19:11:04 - PHP Warning:  mkdir(): File exists in /var/www/catalog/model/tool/image.php on line 34
+2022-11-15 19:11:04 - PHP Warning:  chmod(): Operation not permitted in /var/www/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php on line 62
+2022-11-15 19:11:04 - PHP Warning:  mkdir(): File exists in /var/www/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php on line 50
+2022-11-15 19:11:04 - PHP Warning:  chmod(): Operation not permitted in /var/www/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php on line 62
+2022-11-15 19:11:04 - PHP Warning:  mkdir(): File exists in /var/www/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php on line 50
+2022-11-15 19:11:04 - PHP Warning:  mkdir(): File exists in /var/www/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php on line 50
+2022-11-15 19:11:04 - PHP Warning:  mkdir(): File exists in /var/www/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php on line 50
+2022-11-15 19:11:04 - PHP Warning:  mkdir(): File exists in /var/www/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php on line 50
+2022-11-15 19:11:05 - PHP Warning:  mkdir(): File exists in /var/www/system/storage/vendor/twig/twig/src/Cache/FilesystemCache.php on line 50
