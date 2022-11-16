@@ -1,16 +1,15 @@
-on: push
-name: 🚀 Deploy website on push
+on:
+  push:
+    branches:
+      - 'releases/**'
+name: Deploy releases branch on push
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: 🎉 Deploy releases
     runs-on: ubuntu-latest
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v2
-
-      - name: Set output
-        id: vars
-        run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
@@ -19,4 +18,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           local-dir: ./testCiCd/
-          server-dir: ./${{ steps.vars.outputs.short_ref }}/
+          server-dir: ./stages/production/
