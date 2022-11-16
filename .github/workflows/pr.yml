@@ -1,0 +1,24 @@
+on:
+  pull_request:
+    types: [opened]
+name:  pull request
+jobs:
+  web-deploy:
+    name: Deploy pull request
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      - name: Set output
+        id: vars
+        run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        with:
+          server: ftp.test-metall.site
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          local-dir: ./testCiCd/
+          server-dir: ./${{ steps.vars.outputs.short_ref }}/
