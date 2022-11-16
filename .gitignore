@@ -26,3 +26,7 @@ build-storybook.log*
 
 #Code Coverage
 coverage
+
+# cache
+src/image
+src/system/storage/cache

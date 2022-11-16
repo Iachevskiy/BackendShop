@@ -1,0 +1,5 @@
+# Установить всё одной командой:
+# ASDF_RUBY_BUILD_VERSION=master asdf install
+nodejs 14.17.0
+ruby 2.6.5
+yarn 1.22.5
